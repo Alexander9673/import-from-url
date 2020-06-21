@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "es2020",
+    "jsx": "preserve",
+    "sourceMap": true,
+    "rootDir": "./src"
+  },
+  "exclude": [
+    "node_modules",
+    "**/node_modules/*",
+    "*.json",
+    "tsconfig.json"
+  ]
+}
