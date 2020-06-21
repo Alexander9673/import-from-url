@@ -38,7 +38,7 @@ const importFromUrl = async(url: string, options: Opts = {}) => {
 
     try {
       if (options.useNpm) {
-        cp.execSync(`npm instaall ${result.data.name}@${result.data.version}`);
+        cp.execSync(`npm install ${result.data.name}@${result.data.version}`);
         console.log(`successfully installed ${result.data.name}@${result.data.version}`);
       } else {
         throw new Error('');
